@@ -1,4 +1,4 @@
-package talk.ticket;
+package impl.ticket;
 
 /**
  * Created by shjeon on 2018-04-16.
