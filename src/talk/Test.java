@@ -1,7 +1,7 @@
-package impl;
+package talk;
 
-import impl.process.TalkReceipt;
-import impl.ticket.Ticket;
+import talk.impl.process.TalkReceipt;
+import talk.impl.ticket.Ticket;
 
 import java.util.Scanner;
 

@@ -1,6 +1,6 @@
-package impl.process;
+package talk.impl.process;
 
-import impl.ticket.Ticket;
+import talk.impl.ticket.Ticket;
 
 /**
  * Created by shjeon on 2018-04-16.
