@@ -22,7 +22,7 @@ public class Test {
         receipt.receipt(ticket);
 
         Scanner scan = new Scanner(System.in);
-        System.out.println("상담을 시작하시겠습니까? (Y 또는 N");
+        System.out.println("상담을 시작하시겠습니까? (Y 또는 N)");
         String flag = scan.next();
 
         if (flag.equals("Y"))
