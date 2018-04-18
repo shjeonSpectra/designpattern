@@ -2,17 +2,16 @@ package talk.process;
 
 public class Account
 {
-    public Action action;
+    Action action;
 
-    public Account()
+    public Account(Action action, String role)
     {
-
+        this.action = action;
     }
 
-    public void accountAction ()
+    public void accountAction()
     {
-        action.action();
-
+        action.doAction();
     }
 
 }

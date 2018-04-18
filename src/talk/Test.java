@@ -43,10 +43,13 @@ public class Test {
 //        System.out.println("상태   : " + ticket.getStatus());
 //        System.out.println("접수일 : " + ticket.getDate());
 
-        Account account1 = new Manager();
-        Account account2 = new Agent();
+        //
+        Account account1 = new Account(new ChangeMaxWaitCount(), "manager");
         account1.accountAction();
-        account2.accountAction();
+//        Account account2 = new Agent();
+
+//        account1.accountAction();
+//        account2.accountAction();
 
     }
 }

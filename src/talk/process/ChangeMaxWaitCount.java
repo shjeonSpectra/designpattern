@@ -3,8 +3,8 @@ package talk.process;
 public class ChangeMaxWaitCount implements Action
 {
     @Override
-    public void action()
+    public void doAction()
     {
-        System.out.println("동시상담수 변경");
+        System.out.println("최대 대기수 변경");
     }
 }
