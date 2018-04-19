@@ -1,4 +1,4 @@
-package talk.process;
+package talk.strategy;
 
 public interface Action
 {

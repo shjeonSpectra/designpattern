@@ -1,7 +1,10 @@
-package talk.process;
+package talk.strategy;
 
 public class ChangeMaxWaitCount implements Action
 {
+    public ChangeMaxWaitCount ()
+    {}
+
     @Override
     public void doAction()
     {

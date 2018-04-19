@@ -1,7 +1,9 @@
-package talk.process;
+package talk.strategy;
 
 public class ChangeMaxConCount implements Action
 {
+    public ChangeMaxConCount()
+    {}
 
     @Override
     public void doAction()

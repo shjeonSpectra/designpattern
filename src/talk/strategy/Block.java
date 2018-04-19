@@ -1,7 +1,11 @@
-package talk.process;
+package talk.strategy;
 
 public class Block  implements Action
 {
+    public Block ()
+    {
+
+    }
     @Override
     public void doAction()
     {

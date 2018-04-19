@@ -43,13 +43,25 @@ public class Test {
 //        System.out.println("상태   : " + ticket.getStatus());
 //        System.out.println("접수일 : " + ticket.getDate());
 
-        //
-        Account account1 = new Account(new ChangeMaxWaitCount(), "manager");
-        account1.accountAction();
-//        Account account2 = new Agent();
+        /*
+         * Strategy 패턴 적용
+         */
 
-//        account1.accountAction();
-//        account2.accountAction();
+        // 관리자 업무
+        Account admin = new Account("admin");
+        System.out.println("===============관리자 업무===============");
+        admin.actionByRole();
+
+        // 매니저 업무
+        Account manager = new Account("manager");
+        System.out.println("===============매니저 업무===============");
+        manager.actionByRole();
+
+        // 상담원 업무
+        Account agent = new Account("agent");
+        System.out.println("===============상담원 업무===============");
+        agent.actionByRole();
+
 
     }
 }
